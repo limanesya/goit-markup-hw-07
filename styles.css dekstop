@@ -489,7 +489,7 @@ cursor: pointer;
 .subscribe-label {
     position: relative;
     display: inline-flex;
-    margin-top: 16px;
+    
  
 }
 .subscribe-label-text{
