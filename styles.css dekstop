@@ -109,8 +109,7 @@ color: var(--ocean-color);
 }
 .contacts-list {
     display: flex;
-    gap: 40px;
-    
+    gap: 40px; 
 }
 .contacts {
     margin-left: auto;
