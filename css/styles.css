@@ -467,11 +467,11 @@ body {
 .mobile-contacts {
     margin-bottom: 48px;
 }
-.mobile-contacts.list .tel.link {
+.tel.link {
     margin-bottom: 40px;
     color: var(--accent-color);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.11;
 
 }
@@ -490,6 +490,7 @@ body {
 }
 .mobile-socials.footer-social-list.list {
     margin-bottom: 0;
+    justify-content: space-between;
 }
 /* .social-media-item.mobile-item {
     column-gap: 15%;
@@ -501,7 +502,7 @@ body {
     height: 432px;
 
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -509,7 +510,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     }
-    
+@media screen and (min-device-mixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/mobile2x.jpg);
+    }
+}
 .container.overlay {
             padding-top: 112px;
             padding-bottom: 112px;
@@ -1113,20 +1121,28 @@ body {
     color: var(--ocean-color);
 
 }
-/* .contact-item.contact-mail {
-    margin-bottom: 12px;
-} */
+
 /* hero */
 .hero {
     max-width: 1158px;
     height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+}
+@media screen and (min-device-mixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/background2x.jpg);
+    }
 }
 .hero-title {
     max-width: 496px;
     margin-bottom: 36px;
     font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         /* or 107% */
 }
 /* about us */
