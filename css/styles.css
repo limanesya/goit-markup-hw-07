@@ -550,6 +550,12 @@ body {
 
 .mobile-contacts .mail.link {
     margin-top: 40px;
+    transition: var(--main-animation);
+
+}
+.mail.link:hover,
+.mail.link:focus {
+color: var(--accent-color);
 }
 
 .mobile-menu {
@@ -1307,6 +1313,9 @@ screen and (min-resolution: 2dppx) {
     .subscribe-input {
         width: 264px;
         height: 40px;
+    }
+    .media {
+        text-align: left;
     }
 
 }
